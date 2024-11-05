@@ -59,6 +59,9 @@ body {
   text-align: center;
   cursor: pointer;
   transition: transform 0.3s;
+  justify-content: center;
+  alight-items: center;
+  height: 100%;
 }
 
 .project-card:hover {
