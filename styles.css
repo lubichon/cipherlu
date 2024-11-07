@@ -90,21 +90,23 @@ body {
 }
 
 .images {
-    display: flex
+    display: flex;
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
 }
 
 .image-box {
-    width: 200px;
-    height: 200px;
+    flex: 1;
+    max-width: 150px; /* Adjust width as needed */
+    aspect-ratio: 1; /* Ensures a square shape */
     background-color: #0074cc;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1em;
+    border-radius: 5px;
 }
 
 .text-box {
