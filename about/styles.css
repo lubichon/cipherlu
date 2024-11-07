@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+}
+
+.banner {
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.nav-button {
+  color: #00b894;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+.nav-button:hover {
+  color: #fff;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.project-card2 {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  justify-content: center;
+  alight-items: center;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-title {
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+.coming-soon:hover {
+  animation: shake 0.3s;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+footer {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #333;
+  padding: 20px;
+  margin: 15% auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.modal-content h2 {
+  color: #00b894;
+}
+
+.close {
+  float: right;
+  font-size: 1.5em;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #00b894;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #008f6a;
+}
