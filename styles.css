@@ -89,6 +89,30 @@ body {
   75% { transform: translateX(5px); }
 }
 
+.images {
+    display: flex
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    width: 200px;
+    height: 200px;
+    background-color: #0074cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.text-box {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 footer {
   margin-bottom: 20px;
   margin-top: 20px;
