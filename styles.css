@@ -185,7 +185,7 @@ form button:hover {
 /* Responsive styling */
 @media (max-width: 600px) {
     .images {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .image-box {
