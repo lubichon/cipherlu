@@ -181,3 +181,15 @@ form button {
 form button:hover {
   background-color: #008f6a;
 }
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .images {
+        flex-direction: column;
+    }
+
+    .image-box {
+        max-width: 100px;
+        aspect-ratio: 1;
+    }
+}
